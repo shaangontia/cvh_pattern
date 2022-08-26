@@ -22,12 +22,12 @@ interface ViewProps extends ButtonsProps {
 
 const useHook = ({ label, onClick }: ButtonsProps): ViewProps => {
     const btnId = label;
-    // const displayDetails = useCallback((e: any) => onClick(e), []);
+    const displayDetails = useCallback((e: any) => onClick(e), []);
 
     return {
         btnId,
         label,
-        onClick
+        onClick: displayDetails
     }
 }
 
