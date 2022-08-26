@@ -18,9 +18,9 @@ interface HeaderProps {
 //-----------------------------------
 
 const useHook = (): HeaderProps =>{
-    const cityName = "Bangalore"
+    const cityName = "Berlin"
     const userName = "Shaan"
-    const countryName = "India"
+    const countryName = "Germany"
     const age = "20"
     const onClick = (e: any) => {
         const el = document.querySelector('span');

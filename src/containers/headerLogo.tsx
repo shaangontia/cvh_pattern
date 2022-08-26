@@ -11,6 +11,7 @@ const Logo = styled.img`
     max-width: 400px;
     padding: 0 12px;
 `
+
 export const HeaderLogo: React.FC = () => (
      <Logo src={logos} alt="logo"/>   
 )
